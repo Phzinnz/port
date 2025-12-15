@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 255, 0.807);
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    
+}
+
+nav#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+    
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 1200;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+nav#menu a:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.5s;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto 90vw auto;
+    gap: 20px;
+   
+   
+}
+
+#ficha{
+    padding: 20px;
+    border-radius: 8px;
+    grid-column: 2;
+    background-color:whitesmoke
+    
+}
+
+#ficha h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: blue;
+}
+
+#ficha p{
+    text-align: justify;
+}
+
+#perfil{
+    width: 250px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid white;
+    outline: 5px solid green;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#social li{
+    list-style: none;
+    
+    
+} 
+
+#detalhe{
+    grid-column: 2;
+    background-color: whitesmoke
+}
+
+#Skills{
+    padding: 20px;
+}
+
+#Skills h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    margin-bottom: 20px;
+    font-weight: 1.5em;
+}
+
+#lin{
+    margin-bottom: 10px;
+}
+
+#log{
+    margin-bottom: 10px;
+}
+
+#des{
+    margin-bottom: 10px;
+}
+
+#seg{
+    margin-bottom: 10px;
+}
+
+#soft{
+
+    margin-bottom: 10px;
+}
+
+#detalhe li{
+      margin: 10px;
+      list-style: none;
+}
+
+#formaçao{
+    grid-column: 2;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+#formaçao h1{
+    color: blue;
+    margin-bottom: 10px;
+    
+}
+
+#formaçao li{
+    margin: 20px;
+    
+    
+}
