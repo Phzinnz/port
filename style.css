@@ -6,7 +6,8 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    background-image: url(https://cdn-wcsm.alura.com.br/2025/04/sistema-codigo-binario.png);
+    
 
 header{
     background-color: rgba(0, 0, 255, 0.807);
@@ -154,4 +155,4 @@ main{
     margin: 20px;
     
     
-}
+}}   
