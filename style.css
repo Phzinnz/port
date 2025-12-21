@@ -115,23 +115,28 @@ main{
 
 #lin{
     margin-bottom: 10px;
+    color: blue;
 }
 
 #log{
     margin-bottom: 10px;
+    color: blue;
 }
 
 #des{
     margin-bottom: 10px;
+    color: blue;
 }
 
 #seg{
     margin-bottom: 10px;
+    color: blue;
 }
 
 #soft{
 
     margin-bottom: 10px;
+    color: blue;
 }
 
 #detalhe li{
@@ -155,4 +160,50 @@ main{
     margin: 20px;
     
     
-}}   
+}
+
+
+#projetos{
+    grid-column: 2;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+#projetos h1{
+    color: blue;
+    margin-top: 5px;
+}
+
+#projetos h2{
+    color: blue;
+    margin: 10px;
+}
+
+#projetos p{
+    margin: 10px;
+}
+
+#projetos ul{
+    list-style: none;
+    margin: 10px;
+}
+
+.projeto-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.projeto-container img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.projeto-texto {
+    max-width: 600px;
+}
+
+
+
+
+}
