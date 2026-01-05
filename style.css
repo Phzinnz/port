@@ -16,6 +16,7 @@ body.escuro{
     --fundocard:rgba(156, 153, 153, 0.616);
     --destaque: #ff5522;
     --texto:rgb(255,255,255);
+
     
 }
 
@@ -64,7 +65,7 @@ main{
     display: grid;
     grid-template-columns: auto 90vw auto;
     gap: 20px;
-   
+    
    
 }
 
@@ -86,6 +87,7 @@ main{
 
 #ficha p{
     text-align: justify;
+    color: var(--texto);
 }
 
 #perfil{
@@ -121,6 +123,7 @@ main{
 
 #skills{
     padding: 20px;
+    color:var(--texto) ;
 }
 
 #skills h1{
@@ -165,6 +168,7 @@ main{
     grid-column: 2;
     background-color:var(--fundocard);
     padding: 20px;
+    color:var(--texto);
 }
 
 #formacao h1{
@@ -184,6 +188,7 @@ main{
     grid-column: 2;
     background-color: var(--fundocard);
     padding: 20px;
+    color: var(--texto);
 }
 
 #projetos h1{
